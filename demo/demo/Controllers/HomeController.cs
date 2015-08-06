@@ -26,5 +26,12 @@ namespace demo.Controllers
 
             return View();
         }
+
+        public ActionResult Test()
+        {
+            ViewBag.Message = "Questa è una pagina di test.";
+
+            return View();
+        }
     }
 }
